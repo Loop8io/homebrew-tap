@@ -1,28 +1,28 @@
 class Nimbus < Formula
   desc "CLI tool for Loop8 AWS access management"
   homepage "https://github.com/Loop8io/int-nimbus"
-  version "v0.1.2"
+  version "v0.1.3"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/Loop8io/int-nimbus/releases/download/cli-vv0.1.2/nimbus_darwin_arm64.tar.gz"
-      sha256 "c7aa7db3e610ccc11760eebdf3cff6329378a9f0b4dba4f9e2bb6f6e0583e12e"
+      url "https://github.com/Loop8io/int-nimbus/releases/download/cli-v0.1.3/nimbus_darwin_arm64.tar.gz"
+      sha256 "584acd74d8498d5e58d2711d4253bd2fe383d1f2f071bd119daa9e10f336aaa5"
     end
     on_intel do
-      url "https://github.com/Loop8io/int-nimbus/releases/download/cli-vv0.1.2/nimbus_darwin_amd64.tar.gz"
-      sha256 "e7a851ccc3f1ce58c4577603ac0682bf21ed950446ec890f42a71892b87cec0b"
+      url "https://github.com/Loop8io/int-nimbus/releases/download/cli-v0.1.3/nimbus_darwin_amd64.tar.gz"
+      sha256 "4da1f4964ad30badccbdca76e1dab02067777db8471a2c4b2393b183bb714498"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Loop8io/int-nimbus/releases/download/cli-vv0.1.2/nimbus_linux_arm64.tar.gz"
-      sha256 "05883ac38213c6eac3fd6f19364321b777e8bd02799ebc41995f4bcc818c9142"
+      url "https://github.com/Loop8io/int-nimbus/releases/download/cli-v0.1.3/nimbus_linux_arm64.tar.gz"
+      sha256 "0298efbfe4d4882dcc0d5df8ef00eafebde344185b9353cdd21dd7aaa7251875"
     end
     on_intel do
-      url "https://github.com/Loop8io/int-nimbus/releases/download/cli-vv0.1.2/nimbus_linux_amd64.tar.gz"
-      sha256 "465453666ab94060ed2e69eff3c2dace6727882605124c8fb3205f9b7a6c2f57"
+      url "https://github.com/Loop8io/int-nimbus/releases/download/cli-v0.1.3/nimbus_linux_amd64.tar.gz"
+      sha256 "7c27e0ee82bf1f2bec7e17ddaa70b07f40021a31daa0b4174ac6c0d2f006c086"
     end
   end
 
