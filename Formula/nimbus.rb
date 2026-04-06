@@ -1,28 +1,28 @@
 class Nimbus < Formula
   desc "CLI tool for Loop8 AWS access management"
   homepage "https://github.com/Loop8io/int-nimbus"
-  version "v0.2.1"
+  version "v0.2.2"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/Loop8io/homebrew-tap/releases/download/v0.2.1/nimbus_darwin_arm64.tar.gz"
-      sha256 "0a344523179d21e540b67f82da12ef24264fbbf1eb89be34d03c2d06f9cbf044"
+      url "https://github.com/Loop8io/homebrew-tap/releases/download/v0.2.2/nimbus_darwin_arm64.tar.gz"
+      sha256 "d08334786c3b33ffdb79a607d3480c92439e252906835de628f7fac8acb0af5a"
     end
     on_intel do
-      url "https://github.com/Loop8io/homebrew-tap/releases/download/v0.2.1/nimbus_darwin_amd64.tar.gz"
-      sha256 "f5ac6ad91c57bd33764282e6742ee68e601992b2b7638e386fd1789accacfcff"
+      url "https://github.com/Loop8io/homebrew-tap/releases/download/v0.2.2/nimbus_darwin_amd64.tar.gz"
+      sha256 "f81c5fca09fd552818fad0eae75d11408b8b3cf9b61b908ffb4ae560403777a7"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Loop8io/homebrew-tap/releases/download/v0.2.1/nimbus_linux_arm64.tar.gz"
-      sha256 "ace9be9a41f2944b3e939839935d1593b48e6a29983bfe9ef6c2bf58f1a27ed2"
+      url "https://github.com/Loop8io/homebrew-tap/releases/download/v0.2.2/nimbus_linux_arm64.tar.gz"
+      sha256 "a530d94ea67d4104ded64e5abd17a92bb4cea2f45fedaa8e73c11aab1ddfdc01"
     end
     on_intel do
-      url "https://github.com/Loop8io/homebrew-tap/releases/download/v0.2.1/nimbus_linux_amd64.tar.gz"
-      sha256 "33e5e44c540a7e59e93fe7072593fc956489b40fee34893694493a18272e7732"
+      url "https://github.com/Loop8io/homebrew-tap/releases/download/v0.2.2/nimbus_linux_amd64.tar.gz"
+      sha256 "e77a035aca929fc9822e3debc45ead01ec8066cb41afd5192d325b90e97323c6"
     end
   end
 
